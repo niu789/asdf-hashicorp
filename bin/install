@@ -52,7 +52,7 @@ get_arch () {
   if [[ $machine == *"arm"* ]]; then
     echo "arm";
   elif [[ $machine == *"aarch64"* ]]; then
-    echo "aarch64";
+    echo "arm64";
   elif [[ $machine == *"386"* ]]; then
     echo "386";
   else
